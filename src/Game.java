@@ -37,8 +37,8 @@ public class Game {
 
 		int matches = 0;
 		for (Dice d : dice) {
-			d.setValue(d.roll()); // update the die value for symbol facing in
-									// roll of current game turn
+			d.setValue(d.roll()); //Updated the Dice value
+									// Roll No. of the current Game
 			if (d.getValue().equals(pick)) {
 				matches += 1;
 			}
