@@ -17,7 +17,7 @@ public class Main {
 
 			System.out.println("Enter your age: ");
 			age = reader.nextInt(); // Scans the next token of the input as an
-									// Int
+			//Check players Age						// Int
 			if (age >= 18) {
 				BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
