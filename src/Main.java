@@ -58,7 +58,7 @@ public class Main {
 							// Bug003 fix
 							// If player wins and win/lose become >42, throw the
 							// dice again and
-							// change it before display the throw to user
+							
 							if (winnings > 0 && ((float) (winCount + 1) / ((winCount + 1) + loseCount)) > 0.42) {
 								while (winnings > 0) {
 									d1 = new Dice();
